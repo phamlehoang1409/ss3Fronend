@@ -13,20 +13,20 @@
 
     <form>
 
-        <label>Họ và tên</label>
-        <input type="text" value="Phạm Lê Hoàng" name="fullName" id="fullName">
+        <label for="fullName">Họ và tên</label>
+        <input type="text"  autofocus name="fullName" id="fullName" required>
         <br>
 
         <label>Ngày sinh đầy đủ</label>
-        <input type="date" value="2006-09-14">
+        <input type="date" name="fullDateOfBirth" id="fullDateOfBirth" required>
         <br>
 
         <label>Tháng và năm</label>
-        <input type="month" value="2006-09">
+        <input type="month" name="monthYear" id="monthYear" required>
         <br>
 
         <label>Thời gian</label>
-        <input type="time" value="12:40">
+        <input type="time" name="time" id="time" required>
         <br>
 
         <label>Giới tính</label>
@@ -36,11 +36,11 @@
         <br>
 
         <label>Email</label>
-        <input type="email" value="hoang@gmail.com">
+        <input type="email"  required>
         <br>
 
         <label>Mật khẩu</label>
-        <input type="password" value="123456">
+        <input type="password" required>
         <br>
 
             <label>Giới thiệu bản thân</label>
@@ -70,17 +70,17 @@
             <br>
 
             <label>Năm kinh nghiệm</label>
-            <input type="number" value="3">
+            <input type="number" value="3" required>
             <br>
 
             <label>Tìm kiếm</label>
-            <input type="search" value="Pham">
+            <input type="search" required>
             <br>
 
             <label>Màu sắc ưu thích</label>
-            <input type="color" value="#000000">
+            <input type="color" value="#000000" required>
             <br>
-            
+
             <button type="button">Hủy</button>
             <button type="reset">Làm mới</button>
             <button type="submit">Gửi</button>
@@ -90,6 +90,4 @@
 
 </body>
 
-
 </html>
-
